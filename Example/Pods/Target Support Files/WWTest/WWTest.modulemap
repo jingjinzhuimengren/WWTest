@@ -1,0 +1,6 @@
+framework module WWTest {
+  umbrella header "WWTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
