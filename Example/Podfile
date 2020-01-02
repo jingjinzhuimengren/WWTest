@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WWTest_Example' do
+  pod 'WWTest', :path => '../'
+
+  target 'WWTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
